@@ -25,7 +25,7 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Maryland Gifts English Medium School</span>
             <div className="flex items-center gap-2">
-              {/* Placeholder for logo */}
+              {/* logo */}
               <div className="h-16 w-16 bg-gray-200 rounded-full flex items-center justify-center">
                 <Image
                   src="/images/Logo Maryland.png" 
@@ -79,7 +79,13 @@ export default function Header() {
                 <div className="-m-1.5 p-1.5">
                   <span className="sr-only">Maryland Gifts English Medium School</span>
                   <div className="h-12 w-12 bg-gray-200 rounded-full flex items-center justify-center">
-                    <span className="text-gray-500 text-xs">Logo</span>
+                    <Image
+                      src="/images/Logo Maryland.png" 
+                      alt="logo"
+                      width="100"
+                      height="100"
+                      className="object-cover "
+                     />
                   </div>
                 </div>
                 <Button

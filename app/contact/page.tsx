@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
 import { PhoneCall, Mail, MapPin, Send } from "lucide-react"
+import Image from "next/image"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -177,8 +178,14 @@ export default function ContactPage() {
             <div className="mt-2 h-1 w-24 bg-maroon-600 mx-auto"></div>
           </div>
 
-          <div className="h-96 bg-gray-200 rounded-lg flex items-center justify-center">
-            <p className="text-gray-600">Map placeholder - Thuathe Sehlabeng, Motsekuoa</p>
+          <div className="h-96 bg-white rounded-lg flex items-center justify-center">
+            <Image
+                            src="/images/thuathe.jpeg"
+                            alt="Students of Maryland Gifts School"
+                            width={100}
+                            height={100}
+                            className="h-96 w-fit object-cover"
+                          />
           </div>
         </div>
       </section>

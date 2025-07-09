@@ -11,7 +11,16 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Maryland Gifts English Medium School",
   description: "Nurturing young minds for a brighter future",
-    generator: 'v0.dev'
+  icons: {
+    icon: [
+      { url: '/images/Logo Maryland.png' },
+      { url: '/images/Logo Maryland.png', sizes: '16x16', type: 'image/png' },
+      { url: '/images/Logo Maryland.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/images/Logo Maryland.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 }
 
 export default function RootLayout({
