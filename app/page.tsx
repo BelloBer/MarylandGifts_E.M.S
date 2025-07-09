@@ -367,7 +367,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/images/mlb.png"
+                src="/images/Logo Maryland.png"
                 alt="School classroom"
                 fill
                 className="object-cover"
