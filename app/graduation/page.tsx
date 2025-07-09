@@ -37,7 +37,7 @@ export default function GraduationPage() {
                   <CardContent className="p-0">
                     <div className="relative h-64">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194741.jpg-39SkZWuazxmdAC7yfgYiw7WoYm20FR.jpeg"
+                        src="/images/grad2024/grad4.jpg"
                         alt="Graduation ceremony"
                         fill
                         className="object-cover"
@@ -54,7 +54,7 @@ export default function GraduationPage() {
                   <CardContent className="p-0">
                     <div className="relative h-64">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194723.jpg-fgMo3zuAnLOMOxrL8XDvq2alJltmYi.jpeg"
+                        src="/images/grad2024/grad3.jpg"
                         alt="Graduation celebration"
                         fill
                         className="object-cover"
@@ -71,7 +71,7 @@ export default function GraduationPage() {
                   <CardContent className="p-0">
                     <div className="relative h-64">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194793.jpg-raUtA718JEaxxzei0zTQVtYEiAPN5E.jpeg"
+                        src="/images/grad2024/grad7.jpg"
                         alt="Graduation event"
                         fill
                         className="object-cover"
@@ -92,7 +92,7 @@ export default function GraduationPage() {
                   <CardContent className="p-0">
                     <div className="relative h-64">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194652.jpg-2ph2tIFd9IRWPQ7nWurlQk3XuNxDiY.jpeg"
+                        src="/images/grad2024/grad9.jpg"
                         alt="Graduates"
                         fill
                         className="object-cover"
@@ -109,7 +109,7 @@ export default function GraduationPage() {
                   <CardContent className="p-0">
                     <div className="relative h-64">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194672.jpg-V5pSzwJviqpZAW8GDdzNDfUlplrMqd.jpeg"
+                        src="/images/grad2024/grad10.jpg"
                         alt="Graduates"
                         fill
                         className="object-cover"
@@ -130,7 +130,7 @@ export default function GraduationPage() {
       {/* Graduation Message */}
       <section className="py-16 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="bg-white shadow-xl rounded-lg overflow-hidden">
+          <div className="bg-white text-gray-900 shadow-xl rounded-lg overflow-hidden">
             <div className="p-8 md:p-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Message from the Principal</h2>
               <div className="prose max-w-none">

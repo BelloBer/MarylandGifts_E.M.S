@@ -28,7 +28,7 @@ export default function GalleryPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194577.jpg-fWUDctZF0hS52J8NIOi4bQozIjLmIl.jpeg"
+                    src="/images/students/std1.jpg"
                     alt="Students in uniform"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"
@@ -36,7 +36,7 @@ export default function GalleryPage() {
                 </div>
                 <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194619.jpg-vrCEULn9qdADKQyMFgBmvfgDhufeLk.jpeg"
+                    src="/images/students/std2.jpg"
                     alt="Students in uniform"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"
@@ -44,7 +44,7 @@ export default function GalleryPage() {
                 </div>
                 <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194593.jpg-sbVgurQIKEp6CI4wmj7K3plh7XfsxZ.jpeg"
+                    src="/images/students/std3.jpg"
                     alt="Students in uniform"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"
@@ -52,12 +52,93 @@ export default function GalleryPage() {
                 </div>
                 <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194827.jpg-lunlzruCUJT371KnEMDyWb7vJD1bZB.jpeg"
+                    src="/images/students/std4.jpg"
                     alt="Students in uniform"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std5.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std6.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std7.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std8.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std9.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std10.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std11.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std12.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std13.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/students/std14.jpg"
+                    alt="Students in uniform"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                
               </div>
             </TabsContent>
 
@@ -65,7 +146,7 @@ export default function GalleryPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194652.jpg-2ph2tIFd9IRWPQ7nWurlQk3XuNxDiY.jpeg"
+                    src="/images/grad2024/grad1.jpg"
                     alt="Graduation ceremony"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"
@@ -73,7 +154,7 @@ export default function GalleryPage() {
                 </div>
                 <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194672.jpg-V5pSzwJviqpZAW8GDdzNDfUlplrMqd.jpeg"
+                    src="/images/grad2024/grad2.jpg"
                     alt="Graduation ceremony"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"
@@ -81,7 +162,7 @@ export default function GalleryPage() {
                 </div>
                 <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194741.jpg-39SkZWuazxmdAC7yfgYiw7WoYm20FR.jpeg"
+                    src="/images/grad2024/grad3.jpg"
                     alt="Graduation ceremony"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"
@@ -89,7 +170,47 @@ export default function GalleryPage() {
                 </div>
                 <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194723.jpg-fgMo3zuAnLOMOxrL8XDvq2alJltmYi.jpeg"
+                    src="/images/grad2024/grad4.jpg"
+                    alt="Graduation ceremony"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/grad2024/grad5.jpg"
+                    alt="Graduation ceremony"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/grad2024/grad6.jpg"
+                    alt="Graduation ceremony"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/grad2024/grad7.jpg"
+                    alt="Graduation ceremony"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/grad2024/grad8.jpg"
+                    alt="Graduation ceremony"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-lg">
+                  <Image
+                    src="/images/grad2024/grad9.jpg"
                     alt="Graduation ceremony"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-300"

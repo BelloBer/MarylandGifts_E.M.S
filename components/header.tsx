@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -26,7 +27,13 @@ export default function Header() {
             <div className="flex items-center gap-2">
               {/* Placeholder for logo */}
               <div className="h-16 w-16 bg-gray-200 rounded-full flex items-center justify-center">
-                <span className="text-gray-500 text-xs">Logo</span>
+                <Image
+                  src="/images/Logo Maryland.png" 
+                  alt="logo"
+                  width="100"
+                  height="100"
+                  className="object-cover "
+                  />
               </div>
               <div className="hidden md:block">
                 <h1 className="font-bold text-navy-600">Maryland Gifts</h1>
@@ -57,7 +64,9 @@ export default function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Button className="bg-navy-600 hover:bg-navy-700 text-white">Enroll Now</Button>
+          <Button className="bg-navy-600 hover:bg-navy-700 text-white">
+            <Link href="/enroll">Enroll Now</Link>
+          </Button>
         </div>
       </nav>
 
@@ -96,8 +105,11 @@ export default function Header() {
                       </Link>
                     ))}
                   </div>
+                  
                   <div className="py-6">
-                    <Button className="w-full bg-navy-600 hover:bg-navy-700 text-white">Enroll Now</Button>
+                    <Button className="w-full bg-navy-600 hover:bg-navy-700 text-white">
+                      <Link href="/enroll"> Enroll Now</Link>
+                    </Button>
                   </div>
                 </div>
               </div>
