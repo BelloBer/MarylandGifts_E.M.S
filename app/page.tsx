@@ -31,7 +31,7 @@ export default function Home() {
               <Button className="bg-gold-500 hover:bg-gold-600 text-navy-800">
                 <Link href="/about">Learn More</Link>
               </Button>
-              <Button variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button variant="outline" className="border-white text-white hover:bg-white/10 bg-navy-700">
                 <Link href="/enroll">Enroll Now</Link>
               </Button>
             </div>
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="lg:w-1/2 relative">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194593.jpg-sbVgurQIKEp6CI4wmj7K3plh7XfsxZ.jpeg"
+                src="/images/students/std3.jpg"
                 alt="Students of Maryland Gifts School"
                 width={600}
                 height={400}
@@ -54,7 +54,7 @@ export default function Home() {
       <section className="bg-maroon-600 text-white py-3">
         <div className="container mx-auto px-4 text-center">
           <p className="font-medium">
-            <span className="font-bold">Now Enrolling:</span> Registration for the 2024-2025 academic year is now open!
+            <span className="font-bold">Now Enrolling:</span> Registration for the 2025-2026 academic year is now open!
             <Link href="/enroll" className="underline ml-2 font-semibold hover:text-gold-400">
               Apply Today
             </Link>
@@ -138,14 +138,14 @@ export default function Home() {
             <div className="overflow-hidden rounded-lg shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194577.jpg-fWUDctZF0hS52J8NIOi4bQozIjLmIl.jpeg"
+                  src="/images/students/std1.jpg"
                   alt="Students in uniform"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6 bg-white">
-                <h3 className="text-lg font-semibold mb-2">Our Students</h3>
+                <h3 className="text-lg font-semibold mb-2 text-gray-900">Our Students</h3>
                 <p className="text-gray-600 mb-4">
                   Our students thrive in a supportive environment that encourages curiosity and growth.
                 </p>
@@ -158,14 +158,14 @@ export default function Home() {
             <div className="overflow-hidden rounded-lg shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194827.jpg-lunlzruCUJT371KnEMDyWb7vJD1bZB.jpeg"
+                  src="/images/students/std2.jpg"
                   alt="Students in uniform"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6 bg-white">
-                <h3 className="text-lg font-semibold mb-2">Academic Excellence</h3>
+                <h3 className="text-lg font-semibold mb-2 text-gray-900">Academic Excellence</h3>
                 <p className="text-gray-600 mb-4">
                   We provide a strong foundation in core subjects while nurturing creativity and critical thinking.
                 </p>
@@ -178,14 +178,14 @@ export default function Home() {
             <div className="overflow-hidden rounded-lg shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194652.jpg-2ph2tIFd9IRWPQ7nWurlQk3XuNxDiY.jpeg"
+                  src="/images/grad2024/grad9.jpg"
                   alt="Graduation ceremony"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6 bg-white">
-                <h3 className="text-lg font-semibold mb-2">2024 Graduation</h3>
+                <h3 className="text-lg font-semibold mb-2 text-gray-900">2024 Graduation</h3>
                 <p className="text-gray-600 mb-4">Celebrating the achievements of our graduating class of 2024.</p>
                 <Link href="/graduation" className="text-navy-600 font-medium flex items-center">
                   View Graduation <ArrowRight className="ml-2 h-4 w-4" />
@@ -209,7 +209,7 @@ export default function Home() {
               <CardContent className="p-0">
                 <div className="relative h-48">
                   <Image
-                    src="https://images.pexels.com/photos/8471982/pexels-photo-8471982.jpeg"
+                    src="/images/mic.jpg"
                     alt="School event"
                     fill
                     className="object-cover"
@@ -224,9 +224,9 @@ export default function Home() {
                   <p className="text-gray-600 mb-4">
                     Join us for our annual end of year concert featuring performances by our talented students.
                   </p>
-                  <Link href="#" className="text-navy-600 font-medium flex items-center">
+                  {/*<Link href="#" className="text-navy-600 font-medium flex items-center">
                     Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
+                  </Link>*/}
                 </div>
               </CardContent>
             </Card>
@@ -235,7 +235,7 @@ export default function Home() {
               <CardContent className="p-0">
                 <div className="relative h-48">
                   <Image
-                    src="https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg"
+                    src="/images/balls.jpg"
                     alt="School event"
                     fill
                     className="object-cover"
@@ -250,38 +250,14 @@ export default function Home() {
                   <p className="text-gray-600 mb-4">
                     Our annual sports day will feature various athletic competitions and team activities.
                   </p>
-                  <Link href="#" className="text-navy-600 font-medium flex items-center">
+                  {/*<Link href="#" className="text-navy-600 font-medium flex items-center">
                     Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
+                  </Link>*/}
                 </div>
               </CardContent>
             </Card>
 
-            <Card>
-              <CardContent className="p-0">
-                <div className="relative h-48">
-                  <Image
-                    src="https://images.pexels.com/photos/8471774/pexels-photo-8471774.jpeg"
-                    alt="School event"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center mb-2">
-                    <Calendar className="h-4 w-4 mr-2 text-maroon-600" />
-                    <span className="text-sm text-gray-500">April 10, 2024</span>
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2">Parent-Teacher Conference</h3>
-                  <p className="text-gray-600 mb-4">
-                    Schedule a meeting with your child's teacher to discuss academic progress and development.
-                  </p>
-                  <Link href="#" className="text-navy-600 font-medium flex items-center">
-                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
+            
           </div>
 
           <div className="mt-10 text-center">
@@ -293,6 +269,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
+      
       <section className="py-16 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -320,59 +297,16 @@ export default function Home() {
                 <div className="flex items-center">
                   <div className="h-10 w-10 rounded-full bg-gray-200 mr-3"></div>
                   <div>
-                    <h4 className="font-semibold">Sarah M.</h4>
-                    <p className="text-sm text-gray-500">Parent of Grade 2 Student</p>
+                    <h4 className="font-semibold text-gray-900">M. Morema</h4>
+                    <p className="text-sm text-gray-500">Parent of pre-school Student</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="bg-white shadow-lg">
-              <CardContent className="p-6">
-                <div className="flex text-gold-500 mb-4">
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                </div>
-                <p className="text-gray-600 mb-6 italic">
-                  "The preschool program at Maryland Gifts provided an excellent foundation for my son. The teachers
-                  created a nurturing environment where he developed a love for learning. I highly recommend this
-                  school."
-                </p>
-                <div className="flex items-center">
-                  <div className="h-10 w-10 rounded-full bg-gray-200 mr-3"></div>
-                  <div>
-                    <h4 className="font-semibold">David T.</h4>
-                    <p className="text-sm text-gray-500">Parent of Preschool Graduate</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+            
 
-            <Card className="bg-white shadow-lg">
-              <CardContent className="p-6">
-                <div className="flex text-gold-500 mb-4">
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                </div>
-                <p className="text-gray-600 mb-6 italic">
-                  "What sets Maryland Gifts apart is their commitment to each child's individual growth. The small class
-                  sizes ensure that my children receive personalized attention. We couldn't be happier with our choice."
-                </p>
-                <div className="flex items-center">
-                  <div className="h-10 w-10 rounded-full bg-gray-200 mr-3"></div>
-                  <div>
-                    <h4 className="font-semibold">Rebecca L.</h4>
-                    <p className="text-sm text-gray-500">Parent of Multiple Students</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+            
           </div>
         </div>
       </section>
@@ -389,7 +323,7 @@ export default function Home() {
             <Button className="bg-white text-maroon-600 hover:bg-gray-100">
               <Link href="/enroll">Enroll Now</Link>
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button variant="outline" className="bg-navy-700 border-white text-white hover:bg-white/10">
               <Link href="/contact">Schedule a Visit</Link>
             </Button>
           </div>
@@ -400,12 +334,14 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="text-gray-900">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-6">Take a Virtual Tour</h2>
               <p className="text-gray-600 mb-6">
                 Explore our school facilities and get a glimpse of the learning environment we provide for our students.
                 Our modern classrooms, play areas, and resources are designed to create an optimal learning experience.
               </p>
+
+              {/*
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-navy-600 mr-2 mt-0.5" />
@@ -423,14 +359,15 @@ export default function Home() {
                   <CheckCircle className="h-5 w-5 text-navy-600 mr-2 mt-0.5" />
                   <span>Computer lab with educational software</span>
                 </li>
-              </ul>
-              <Button className="bg-navy-600 hover:bg-navy-700">
-                <GraduationCap className="mr-2 h-4 w-4" /> Schedule a Visit
+              </ul> */}
+
+              <Button className="text-white bg-navy-600 hover:bg-navy-700">
+                <GraduationCap className="mr-2 h-4 w-4 text-white" /> Schedule a Visit
               </Button>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://images.pexels.com/photos/8471988/pexels-photo-8471988.jpeg"
+                src="/images/mlb.png"
                 alt="School classroom"
                 fill
                 className="object-cover"

@@ -49,7 +49,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194827.jpg-lunlzruCUJT371KnEMDyWb7vJD1bZB.jpeg"
+                src="/images/students/std3.jpg"
                 alt="Students of Maryland Gifts School"
                 fill
                 className="object-cover"
@@ -60,7 +60,7 @@ export default function AboutPage() {
       </section>
 
       {/* School History */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50 text-gray-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our History</h2>

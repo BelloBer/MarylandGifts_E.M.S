@@ -36,13 +36,13 @@ export default function AcademicsPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194619.jpg-vrCEULn9qdADKQyMFgBmvfgDhufeLk.jpeg"
+                    src="/images/students/std9.jpg"
                     alt="Preschool students"
                     fill
                     className="object-cover"
                   />
                 </div>
-                <div>
+                <div className="text-gray-900">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Preschool Program</h3>
                   <p className="text-gray-600 mb-6">
                     Our preschool program provides a nurturing environment where young children can develop foundational
@@ -76,7 +76,7 @@ export default function AcademicsPage() {
 
             <TabsContent value="primary">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div className="order-2 lg:order-1">
+                <div className="order-2 lg:order-1 text-gray-900">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Primary Program</h3>
                   <p className="text-gray-600 mb-6">
                     Our primary education program builds on the foundation established in preschool, offering a
@@ -111,7 +111,7 @@ export default function AcademicsPage() {
                 </div>
                 <div className="relative h-96 rounded-lg overflow-hidden shadow-xl order-1 lg:order-2">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743969194593.jpg-sbVgurQIKEp6CI4wmj7K3plh7XfsxZ.jpeg"
+                    src="/images/students/std3.jpg"
                     alt="Primary students"
                     fill
                     className="object-cover"
@@ -175,6 +175,10 @@ export default function AcademicsPage() {
       </section>
 
       {/* Facilities */}
+      {/*
+
+                  ############# FACILITIES TO BE ADDED LATER UPON RECEIPT OF FACILITY IMAGES #########
+                  
       <section className="py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -230,6 +234,7 @@ export default function AcademicsPage() {
           </div>
         </div>
       </section>
+      */}
     </div>
   )
 }
